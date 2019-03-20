@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546453059367.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A09790E2",
+    "lastKnownWriteTime" : 1546463665,
+    "last_content_update" : 1546463665813,
+    "path" : "~/R/exuber_companion/BT.R",
+    "project_path" : "BT.R",
+    "properties" : {
+        "cursorPosition" : "20,14",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

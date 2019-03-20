@@ -1,0 +1,10 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : false,
+        "filePatterns" : [
+        ],
+        "path" : "~/R/exuber_companion",
+        "query" : "arguements",
+        "regex" : false
+    }
+}

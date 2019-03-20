@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{indentfirst}
+
+\usepackage{chngcntr}
+\counterwithin*{equation}{section}
+
+\usepackage{natbib}
+
+\usepackage[toc,page]{appendix}
+
+
+\usepackage{amsmath,amssymb}
+\usepackage[a4paper,bindingoffset=0.2in,
+           left=1in,right=1in,top=1in,bottom=1in,
+          footskip=.4in]{geometry}
+
+\makeatletter
+\newcommand{\mathleft}{\@fleqntrue\@mathmargin0pt}
+\newcommand{\mathcenter}{\@fleqnfalse}
+\makeatother
+
+
+
+\usepackage{float}
+\floatplacement{figure}{H}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{array}
+
+\usepackage{comment}
+\newcommand{\comm}[1]{}
+\renewcommand{\baselinestretch}{1.35}
+
+% Ca
+\usepackage[labelsep=endash]{caption}
+\DeclareCaptionLabelFormat{UC}{\textsc{#1} #2}
+\captionsetup{labelformat=UC} % for all labels
+
+% Define mathematical Expecations  operator
+\def\E{\mathcal{E}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%\clearpage\thispagestyle{empty}
+%\newgeometry{top=4cm,left=1.8cm,right=1.8cm}
+%\begin{center}
+\begin{titlepage}
+
+\title{\Large \textbf{Title}}
+\author{Kostas Vasilopoulos \thanks{Correspondence: Department of Economics, Lancaster University Management
+School, LA1 4YX, UK. E-mail: k.vasilopoulos@lancaster.ac.uk} }
+\date{Lancaster University}
+%\HRule\date{\textbf{Preliminary and Incomplete}\\ }
+%\vspace{5cm}
+%{\huge A simple model in Housing\\ \vspace{0.5cm}  under Constraint Borrowing}\\% \\ }\\
+%\vspace{1.5cm}
+% \large {\hspace{5mm} Kostas Vasilopoulos\footnote{Correspondence: Department of Economics, Lancaster University Management
+%School, LA1 4YX, UK. E-mail: k.vasilopoulos.ac.uk} \\   \hspace{10mm} \large{Lancaster University }}
+% \vspace{1.5cm}
+\maketitle
+%\HRule
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%highlighted the importance of real estate markets and the construction sector for macroeconomic %activity. 
+
+\begin{abstract}
+\vspace{2mm}
+
+\noindent 
+
+
+\bigskip
+\par
+\noindent \textit{Key Words}:
+\par
+\noindent \textit{JEL References}:
+
+
+\end{abstract} 
+
+%\large{ March, 2016}
+\end{titlepage}
+
+
+\end{document}

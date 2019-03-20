@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546429270757.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AFA6E95C",
+    "lastKnownWriteTime" : 1546446716,
+    "last_content_update" : 1546446716377,
+    "path" : "~/R/exuber_companion/cusum.R",
+    "project_path" : "cusum.R",
+    "properties" : {
+        "cursorPosition" : "44,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
